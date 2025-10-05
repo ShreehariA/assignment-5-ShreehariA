@@ -35,7 +35,7 @@ project-root/
 * Run `uv sync` to install dependencies exactly as tested.
 * The dataset is **not pushed to GitHub**. Please download using data loading code block in Part A.
 * Plots using **plotly are not visible in github** as they use JavaScript to render, Please run them locally or use nbviewer.
-* The notebook is **self-contained**: all preprocessing, PCA, and classification steps are reproducible without manual intervention.
+* The notebook is **self-contained**: all steps are reproducible without manual intervention.
 
 ---
 
