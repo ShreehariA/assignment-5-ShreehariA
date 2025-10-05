@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-This project delves into the challenges of real-world machine learning by analyzing the **Yeast dataset**, a benchmark for multi-label classification. The primary objective is to use advanced non-linear dimensionality reduction techniques—**t-SNE** and **Isomap**—to visually inspect the data for veracity issues.  
+The project delves into the challenges of real-world machine learning by analyzing the **Yeast dataset**, a benchmark for multi-label classification. The primary objective is to use advanced non-linear dimensionality reduction techniques—**t-SNE** and **Isomap**—to visually inspect the data for veracity issues.  
 
 Instead of simply building a classifier, this analysis focuses on understanding the data's inherent structure and identifying potential problems such as **noisy labels**, **outliers**, and **hard-to-learn samples** where functional categories are highly mixed.
 
@@ -70,11 +70,11 @@ To make the plots interpretable, the 14 binary labels were condensed into a sing
 
 ### 3. t-SNE for Local Structure Analysis
 - **t-SNE** was implemented to map the data to 2D, focusing on preserving **local neighborhood structures**.  
-- The **perplexity** hyperparameter was tuned systematically (5, 30, 50), with **30** ultimately chosen for the most stable and balanced visualization.
+- The **perplexity** hyperparameter was tuned systematically (5 to 50), with **30** ultimately chosen for the most stable and balanced visualization.
 
 ### 4. Isomap for Global Manifold Learning
 - **Isomap** was applied to understand the **global geometric structure** of the data.  
-- The **n_neighbors** hyperparameter was varied (5, 10, 20, 50) to find the most meaningful representation of the underlying data manifold.
+- The **n_neighbors** hyperparameter was varied (5 to 50) to find the most meaningful representation of the underlying data manifold.
 
 ---
 
@@ -100,7 +100,7 @@ These may represent **experimental errors** or, more interestingly, **rare biolo
 
 ## Conclusion and Recommendations
 
-This project successfully used **advanced visualization** to diagnose key **data veracity challenges** in the Yeast dataset.  
+The project successfully used **advanced visualization** to diagnose key **data veracity challenges** in the Yeast dataset.  
 The core insight is that the difficulty in classification arises not from noise alone but from the **inherent ambiguity and overlap** between gene function categories.
 
 ### Recommendations for Future Work
