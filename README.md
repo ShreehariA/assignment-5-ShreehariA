@@ -28,7 +28,7 @@ project-root/
 ├─ Instructions/           # Assignment PDF (problem statement & instructions)
     └─ DA5401 A5 Manifold Visualization.pdf
 └─ datasets/               # Dataset folder
-   └─ yeast.csv            #  MULAN Repository - Yeast Data (from Openml ID: 40597)
+   └─ yeast.csv            # MULAN Repository - Yeast Data (from Openml ID: 40597)
 ```
 
 ### Notes:
