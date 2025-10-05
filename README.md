@@ -70,11 +70,11 @@ To make the plots interpretable, the 14 binary labels were condensed into a sing
 
 ### 3. t-SNE for Local Structure Analysis
 - **t-SNE** was implemented to map the data to 2D, focusing on preserving **local neighborhood structures**.  
-- The **perplexity** hyperparameter was tuned systematically (5 to 50), with **30** ultimately chosen for the most stable and balanced visualization.
+- The **perplexity** hyperparameter was tuned systematically, with **30** ultimately chosen for the most stable and balanced visualization.
 
 ### 4. Isomap for Global Manifold Learning
 - **Isomap** was applied to understand the **global geometric structure** of the data.  
-- The **n_neighbors** hyperparameter was varied (5 to 50) to find the most meaningful representation of the underlying data manifold.
+- The **n_neighbors** hyperparameter was varied to find the most meaningful representation of the underlying data manifold.
 
 ---
 
